@@ -28,7 +28,8 @@ This recipe shows how to debug a Ruby on Rails (without jRuby) application using
     ```bash
     $: which bundle
     /path/to/rubygem/bin/bundle
-    # replace 'bin' with 'wrappers' in launch.json, so it will be '/path/to/rubygem/wrappers/bundle'. See below the StackOverflow link for a reference for RVM users.
+    # replace 'bin' with 'wrappers' in launch.json, so it will be '/path/to/rubygem/wrappers/bundle'.
+    # See below the StackOverflow link for a reference for RVM users.
   
     $: bundle show ruby-debug-ide
     /path/to/rubygem/gems/ruby-debug-ide-x.x.x
